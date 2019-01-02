@@ -4,7 +4,7 @@ end
 def batch_badge_creator(attendees)
   return badges
 
-def assign_rooms(attendees)
+def assign_rooms
   array=[]
   attendees.each_with_index do |name,index|
     return array<< "Hello, #{name}! You'll be assigned to room #{index+1}!"
